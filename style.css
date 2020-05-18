@@ -35,12 +35,28 @@ q {
     font-style: italic;
 }
 
+.villageois {
+    border-left-style: solid;
+    border-color: yellow;
+    border-width: 3px;
+}
+
+.paysan {
+    border-left-style: solid;
+    border-width: 3px;
+    border-color: turquoise;
+}
+
 p {
     font-size: 20px;
     line-height: 150%;
     /*font-family: Georgia, 'Times New Roman', Times, serif;*/
     color: rgb(31, 29, 36);
     text-align: justify;
+}
+
+header {
+    background-color: rgb(236, 236, 65);
 }
 
 a:link {
@@ -118,11 +134,15 @@ table, th, td {
 }
 
 .little_rock {
-    width: 35%;
-    height: 35%;
+}
+
+.float2 {
     float: right;
+    width: 40%;
+    height: 40%;
     margin: 20px;
 }
+    
 
 .tallahassee {
     width: 40%;
