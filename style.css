@@ -30,6 +30,7 @@ q {
     border-color: #842E1B;
     border-width: 3px;
     padding-left: 30px;
+    padding-right: 10px;
     margin-top: 80px;
     margin-bottom: 80px;
     font-style: italic;
@@ -127,19 +128,22 @@ table, th, td {
 }
 
 .colombus {
-    width: 35%;
-    height: 35%;
+    width: 100%;
+}
+
+.float1 {
     float: left;
+    width: 40%;
     margin: 20px;
 }
 
 .little_rock {
+    width: 100%
 }
 
 .float2 {
     float: right;
     width: 40%;
-    height: 40%;
     margin: 20px;
 }
     
