@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Yanone+Kaffeesatz&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Yanone+Kaffeesatz&display=swap');
+
 body {
     max-width: 90%;
     margin-left: auto;
@@ -5,11 +11,12 @@ body {
     background-color: #F58A6F;
     background: -moz-linear-gradient(180deg, #F58A6F, #6FB2F5);
     background: linear-gradient(180deg, #F58A6F, #6FB2F5);
-    background-image: url("./background.jpg"); 
+    background-image: url("./pictures/background.jpg"); 
     background-repeat: no-repeat;
     background-position: bottom right;
     background-attachment: fixed;
     background-size: cover;
+    font-family: "Open Sans";
 }
 
 q { 
@@ -31,7 +38,9 @@ q {
 p {
     font-size: 20px;
     line-height: 150%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    color: rgb(31, 29, 36);
+    text-align: justify;
 }
 
 a:link {
@@ -74,20 +83,60 @@ table, th, td {
 }
 
 .up {
-    background-image: url(./up.png);
+    height: 50px;
+    width: max-content;
+    background-image: url(./pictures/up.png);
     background-repeat: no-repeat;
+    background-position: top right;
     padding-right: 55px;
 }
 
 
 .down {
-    background-image: url(./down.png);
+    height: 50px;
+    width: max-content;
+    background-image: url(./pictures/down.png);
     background-repeat: no-repeat;
+    background-position: top right;
     padding-right: 55px;
 }
 
 .cat {
-    background-image: url(./cat.png);
-    background-repeat: no-repeat;
+    height: 50px;
+    width: max-content;
     padding-right: 55px;
+    background-image: url(./pictures/cat.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.colombus {
+    width: 35%;
+    height: 35%;
+    float: left;
+    margin: 20px;
+}
+
+.little_rock {
+    width: 35%;
+    height: 35%;
+    float: right;
+    margin: 20px;
+}
+
+.tallahassee {
+    width: 40%;
+    height: 40%;
+}
+
+.after {
+    clear: both;
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+}
+
+h2 {
+    font-family:"Yanone Kaffeesatz";
 }
