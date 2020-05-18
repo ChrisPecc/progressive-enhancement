@@ -4,7 +4,8 @@ body {
     margin-right: auto;
     background-color: #F58A6F;
     background: -moz-linear-gradient(180deg, #F58A6F, #6FB2F5);
-    background-image: url("./background.jpg");
+    background: linear-gradient(180deg, #F58A6F, #6FB2F5);
+    background-image: url("./background.jpg"); 
     background-repeat: no-repeat;
     background-position: bottom right;
     background-attachment: fixed;
@@ -25,8 +26,6 @@ q {
     margin-top: 80px;
     margin-bottom: 80px;
     font-style: italic;
-
-
 }
 
 p {
@@ -71,5 +70,24 @@ table, th, td {
 }
 
 .first {
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.up {
+    background-image: url(./up.png);
+    background-repeat: no-repeat;
+    padding-right: 55px;
+}
+
+
+.down {
+    background-image: url(./down.png);
+    background-repeat: no-repeat;
+    padding-right: 55px;
+}
+
+.cat {
+    background-image: url(./cat.png);
+    background-repeat: no-repeat;
+    padding-right: 55px;
 }
