@@ -2,7 +2,15 @@ body {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #F58A6F;
+    background: -moz-linear-gradient(180deg, #F58A6F, #6FB2F5);
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 q { 
     display: block;
     width: 50%;
@@ -11,4 +19,57 @@ q {
     font-size: 1.6em;
     background-color: rgb(238, 238, 238);
     border-left-style: solid;
+    border-color: #842E1B;
+    border-width: 3px;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+
+
+}
+
+p {
+    font-size: 20px;
+    line-height: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    background-color: gold;
+}
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.grey {
+    background-color: rgb(167, 148, 148);
+}
+
+.white {
+    background-color: white;
+}
+
+.first {
+    font-weight: bold;
 }
